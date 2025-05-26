@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	 <div style="text-align: center;">
+	  <img src="ttb images\TTB_official_logo.jpg" alt="ttblogo" width="160">
+	 </div
+	    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>TheTennisBoutique.</title>
+         <link rel="stylesheet" href="ttbstyle.css">
+		 
+		  <style>
+        .feedback-form {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: black;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border 0.3s;
+        }
+        
+		/* when there is interaction */
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus,
+        select:focus {
+            border-color: lightgreen;
+            outline: none;
+        }
+        
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        .submit-button {
+            background: green;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .submit-button:hover {
+            background: lightgreen;
+        }
+    </style>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+               <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">AboutUs</a></li>
+                    <li><a href="contactus.html">ContactUs</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+               </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <aside class="sidebar left-sidebar">
+
+			    <nav class="sidenav">
+			    <button class="mobile-menu-toggle">Menu</button>
+                 <h2>STORE CATEGORIES</h2>                          
+                <ul>   
+			     <li><a href="products.html#women" class="category">Women's Clothing</a></li>
+			
+                 <li><a href="products.html#men" class="category">Men's Clothing</a></li>
+            
+                 <li><a href="products.html#kid" class="category">Kids' Clothing</a></li>
+			
+                 <li><a href="products.html#bags" class="category">Bags</a></li>
+			
+                 <li><a href="products.html#jewellry" class="category">Jewellry</a></li>
+			
+			     <li><a href="products.html#shoes" class="category">Shoes</a></li>
+			
+			     <li><a href="products.html#rackets" class="category">Rackets</a></li>
+			
+			     <li><a href="products.html#balls" class="category">Balls</a></li>
+               </nav>
+    
+        </aside>
+          <article class="main-content">
+			<p>Every customer matters to us therefore your preferences and thoughts are really important.We would love to hear from you.</p><br>        
+        
+        <form class="feedback-form" id="feedbackForm">
+            <div class="form-group">
+                <label for="name">Customer Name</label>
+                <input type="text" id="name" placeholder="Serena Williams" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email (Optional)</label>
+                <input type="email" id="email" placeholder="your@email.com">
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Your Feedback</label>
+                <textarea id="message" placeholder="How can we improve our services..." required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-button">Submit Feedback</button>
+			</div>
+        </form><br>
+	
+             The Tennis Boutique appreciates you for trusting us with your business and being part of our valued customer list.We hope to see you again soon.Even if you were just browsing our website.
+			</p><br>
+			
+			<img src="ttb images\thankyou.jpg" alt= "thamkyou_card" width="600">
+    
+         </article>
+		 
+            <aside class="sidebar right-sidebar">
+			<h3 style="text-align: center;">PROMOTIONS</h3>
+			
+               <img src="ttb images\ttb_advert1.jpg" alt= "advert1">
+			   <img src="ttb images\ttb_advert2.jpg" alt= "advert2">
+			   <img src="ttb images\ttb_advert3.jpg" alt= "advert3">
+			   <img src="ttb images\ttb_advert4.jpg" alt= "advert4">
+			   Hurry up and get these deals while they last.
+            </aside>
+        </main>
+		
+    <footer>
+	<div class="footer-widget">
+	<h2 class="widget-title">Our Locations</h2>
+    <div class="location-blocks">
+	 
+	  <div class="location-block">
+       <h4>Gaborone</h4>
+        <p>
+        Plot 9876<br>
+        Private bag 652<br>
+		Sebele Mall<br>
+        Gaborone, Botswana<br>
+        </p>
+       </div>
+    
+      <div class="location-block">
+        <h4>Francistown</h4>
+         <p>
+        Plot 45677<br>
+        Private bag 891<br>
+        Galo Mall<br>
+        Francistown, Botswana<br>
+         </p>
+		 </div>
+		 
+	<div class="location-block">
+        <h4>Email</h4>
+        <p>
+        thetennisboutique.@gmail.com<br>
+        </p>
+		</div>
+		
+        <p>& copy;2025 TheTennisBoutique.All rights reserved.</p>
+    </footer>
+    </body>
+</html>
